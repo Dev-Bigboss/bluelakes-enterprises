@@ -45,7 +45,7 @@ const Nav = () => {
     handleScroll(); // Set initial active section
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [links]);
 
   return (
     <nav 
