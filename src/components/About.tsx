@@ -5,12 +5,6 @@ import Image from 'next/image';
 const About = () => {
   const [imageError, setImageError] = useState(false);
 
-  const achievements = [
-    { icon: "🏆", label: "Years of Excellence", value: "15+" },
-    { icon: "🏠", label: "Properties Transformed", value: "50+" },
-    { icon: "😊", label: "Happy Clients", value: "100+" },
-    { icon: "💰", label: "Investment Value", value: "£5M+" }
-  ];
 
   const expertise = [
     {
@@ -64,7 +58,7 @@ const About = () => {
             </p>
             <p className="mb-6">
               Our team is passionate about creating beautiful, functional living spaces that enhance neighborhoods and 
-              meet the evolving needs of modern homeowners. With over 15 years of combined experience in the property 
+              meet the evolving needs of modern homeowners. With our wealth of combined experience in the property 
               sector, we have built a reputation for excellence, reliability, and innovation.
             </p>
             <p>
@@ -75,16 +69,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Key Statistics */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        {achievements.map((achievement, index) => (
-          <div key={index} className="text-center p-6 bg-blue-50 rounded-lg border border-blue-100">
-            <div className="text-3xl mb-3">{achievement.icon}</div>
-            <div className="text-2xl font-bold text-blue-600 mb-2">{achievement.value}</div>
-            <div className="text-sm text-gray-600 font-medium">{achievement.label}</div>
-          </div>
-        ))}
-      </div>
 
       {/* Our Expertise */}
       <div className="mb-10">

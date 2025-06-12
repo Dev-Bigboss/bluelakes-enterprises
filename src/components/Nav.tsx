@@ -8,9 +8,7 @@ const Nav = () => {
     { id: "about", label: "About Us" },
     { id: "services", label: "Our Services" },
     { id: "vision", label: "Vision & Mission" },
-    { id: "team", label: "Our Team" },
-    { id: "testimonials", label: "Testimonials" },
-    { id: "contact", label: "Contact Us" },
+    { id: "contact", label: "Contact Us" }
   ];
 
   // Smooth scroll function

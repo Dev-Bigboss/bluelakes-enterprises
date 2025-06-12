@@ -4,8 +4,6 @@ import Nav from '@/components/Nav';
 import About from '@/components/About';
 import Services from '@/components/Services';
 import Vision from '@/components/Vision';
-import Team from '@/components/Team';
-import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from './Footer';
 import Header from './Header';
@@ -93,14 +91,7 @@ export default function HomePage() {
           <AnimatedSection id="vision" delay={200}>
             <Vision />
           </AnimatedSection>
-
-          <AnimatedSection id="team" delay={300}>
-            <Team />
-          </AnimatedSection>
-
-          <AnimatedSection id="testimonials" delay={400}>
-            <Testimonials />
-          </AnimatedSection>
+    
 
           <AnimatedSection id="contact" delay={500}>
             <Contact />
