@@ -113,13 +113,13 @@ const Services = () => {
       <div className="text-center">
         {!imageError ? (
           <Image 
-            src="/services.jpeg" 
+            src="/services.jpg" 
             alt="Bluelake Enterprises professional renovation and property development services showcasing quality workmanship" 
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
             loading="lazy"
-            width={300}
-            height={168}
+            width={1400}
+            height={623}
           />
         ) : (
           <div className="w-full h-64 md:h-80 bg-gradient-to-r from-blue-100 to-blue-200 rounded-lg flex items-center justify-center shadow-md">

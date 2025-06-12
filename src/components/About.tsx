@@ -139,7 +139,7 @@ const About = () => {
             onError={() => setImageError(true)}
             loading="lazy"
             width={800}
-            height={584}
+            height={534}
           />
         ) : (
           <div className="w-full h-64 md:h-80 bg-gradient-to-r from-blue-100 to-green-100 rounded-lg flex items-center justify-center shadow-md">

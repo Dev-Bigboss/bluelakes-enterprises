@@ -140,8 +140,8 @@ const VisionMission = () => {
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
             loading="lazy"
-            width={275}
-            height={183}
+            width={1925}
+            height={1080}
           />
         ) : (
           <div className="w-full h-64 md:h-80 bg-gradient-to-r from-blue-100 via-green-100 to-purple-100 rounded-lg flex items-center justify-center shadow-md">
