@@ -313,7 +313,7 @@ const Contact = () => {
       <div className="text-center mb-8">
         {!imageError ? (
           <Image 
-            src="/contact.jpeg" 
+            src="/contact.jpg" 
             alt="Bluelake Enterprises office location in Greenhithe, England - professional property development consultations and client meetings" 
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
