@@ -1,12 +1,20 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-cinzel);
+}
+body,
+p,
+a {
+  font-family: var(--font-lora);
 }
 
 @theme inline {
