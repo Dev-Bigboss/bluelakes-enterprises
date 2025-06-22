@@ -136,7 +136,7 @@ const VisionMission = () => {
         {!imageError ? (
           <Image 
             src="/vision.jpeg" 
-            alt="Bluelake Enterprises vision of community revitalization through quality property development and innovative design solutions" 
+            alt="Bluelakes Enterprises vision of community revitalization through quality property development and innovative design solutions" 
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
             loading="lazy"

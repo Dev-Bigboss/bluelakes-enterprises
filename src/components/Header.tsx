@@ -36,7 +36,7 @@ const Header = () => {
           {!imageError ? (
             <Image
               src="/logo.jpg"
-              alt="Bluelake Enterprises Limited - Professional Property Investment Company Logo"
+              alt="Bluelakes Enterprises Limited - Professional Property Investment Company Logo"
               className={`mx-auto mb-4 rounded-lg shadow-lg transition-opacity duration-300 ${
                 imageLoading ? 'opacity-0 absolute' : 'opacity-100'
               }`}
@@ -49,14 +49,14 @@ const Header = () => {
             />
           ) : (
             <div className="mx-auto mb-4 w-80 h-32 bg-white/20 rounded-lg flex items-center justify-center">
-              <span className="text-white/80 text-sm font-medium">Bluelake Enterprises</span>
+              <span className="text-white/80 text-sm font-medium">Bluelakes Enterprises</span>
             </div>
           )}
         </div>
 
         {/* Main heading */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 tracking-tight">
-          Bluelake Enterprises Limited
+          Bluelakes Enterprises Limited
         </h1>
         
         {/* Tagline */}

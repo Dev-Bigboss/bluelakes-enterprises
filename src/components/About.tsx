@@ -52,7 +52,7 @@ const About = () => {
           </h3>
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
             <p className="mb-6">
-              Bluelake Enterprises Limited is a leading property investment and development company based in England. 
+              Bluelakes Enterprises Limited is a leading property investment and development company based in England. 
               We specialize in acquiring undervalued or distressed properties, transforming them through expert renovation, 
               and bringing them back to market as high-quality, turn-key homes.
             </p>
@@ -134,7 +134,7 @@ const About = () => {
         {!imageError ? (
           <Image 
             src="/about.jpg" 
-            alt="Bluelake Enterprises professional property development team working on high-quality renovation projects in England" 
+            alt="Bluelakes Enterprises professional property development team working on high-quality renovation projects in England" 
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
             loading="lazy"
@@ -145,7 +145,7 @@ const About = () => {
           <div className="w-full h-64 md:h-80 bg-gradient-to-r from-blue-100 to-green-100 rounded-lg flex items-center justify-center shadow-md">
             <div className="text-center text-blue-700">
               <div className="text-4xl mb-2">🏢</div>
-              <p className="font-semibold text-lg">Bluelake Enterprises</p>
+              <p className="font-semibold text-lg">Bluelakes Enterprises</p>
               <p className="text-sm text-gray-600">Excellence in Property Development</p>
             </div>
           </div>
@@ -154,11 +154,9 @@ const About = () => {
 
       {/* Why Choose Us */}
       <div className="bg-gray-50 rounded-lg p-6 text-center">
-        <h3 className="text-xl font-bold text-blue-900 mb-4">Why Choose Bluelake Enterprises?</h3>
+        <h3 className="text-xl font-bold text-blue-900 mb-4">Why Choose Bluelakes Enterprises?</h3>
         <div className="flex flex-wrap justify-center gap-4 text-sm">
-          <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">
-            15+ Years Experience
-          </span>
+        
           <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">
             100% Client Satisfaction
           </span>

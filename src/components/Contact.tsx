@@ -58,7 +58,7 @@ const Contact = () => {
     {
       icon: "📧",
       title: "Email",
-      details: ["contact@bluelakeent.com", "info@bluelakeent.com"],
+      details: ["contact@bluelakesent.com", "info@bluelakesent.com"],
       bgColor: "bg-green-50",
       borderColor: "border-green-100",
       iconBg: "bg-green-100",
@@ -284,7 +284,7 @@ const Contact = () => {
             <h4 className="font-bold mb-4">Quick Actions</h4>
             <div className="space-y-3">
               <a 
-                href="mailto:contact@bluelakeent.com" 
+                href="mailto:contact@bluelakesent.com" 
                 className="flex items-center text-blue-100 hover:text-white transition-colors"
               >
                 <span className="mr-2">📧</span>
@@ -314,7 +314,7 @@ const Contact = () => {
         {!imageError ? (
           <Image 
             src="/contact.jpg" 
-            alt="Bluelake Enterprises office location in Greenhithe, England - professional property development consultations and client meetings" 
+            alt="Bluelakes Enterprises office location in Greenhithe, England - professional property development consultations and client meetings" 
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-md mx-auto"
             onError={() => setImageError(true)}
             loading="lazy"

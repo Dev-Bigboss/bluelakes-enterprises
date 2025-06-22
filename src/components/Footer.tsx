@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4">Bluelake Enterprises Limited</h3>
+            <h3 className="text-xl font-bold mb-4">Bluelakes Enterprises Limited</h3>
             <p className="text-blue-200 mb-4 leading-relaxed">
               Professional Property Investment & Development Company specializing in buying, renovating, and selling quality properties.
             </p>
@@ -59,11 +59,11 @@ const Footer = () => {
             <div className="space-y-2 text-blue-200">
               <p>
                 <a 
-                  href="mailto:contact@bluelakeent.com"
+                  href="mailto:contact@bluelakesent.com"
                   className="hover:text-white transition-colors duration-200 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-2 py-1"
-                  aria-label="Send email to contact@bluelakeent.com"
+                  aria-label="Send email to contact@bluelakesent.com"
                 >
-                  📧 contact@bluelakeent.com
+                  📧 contact@bluelakesent.com
                 </a>
               </p>
               <p>
@@ -84,7 +84,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <p className="text-blue-200 text-sm text-center md:text-left">
-              &copy; {currentYear} Bluelake Enterprises Limited. All rights reserved.
+              &copy; {currentYear} Bluelakes Enterprises Limited. All rights reserved.
             </p>
 
             {/* Back to top button */}
