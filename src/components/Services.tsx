@@ -124,7 +124,7 @@ const Services = () => {
         </h3>
         <div className="relative flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
           {/* Continuous line across the timeline */}
-          <div className="hidden md:block absolute top-9 left-0 right-0 h-0.5 bg-blue-300"></div>
+          <div className="hidden md:block absolute top-7 left-0 right-0 h-0.5 bg-blue-300"></div>
 
           {["Identify", "Acquire", "Renovate", "Market", "Sell"].map(
             (step, index) => (
