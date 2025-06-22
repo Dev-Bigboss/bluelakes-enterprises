@@ -59,11 +59,11 @@ const Footer = () => {
             <div className="space-y-2 text-blue-200">
               <p>
                 <a 
-                  href="mailto:contact@bluelakesent.com"
+                  href="mailto:contact@bluelakesent.co.uk"
                   className="hover:text-white transition-colors duration-200 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-2 py-1"
-                  aria-label="Send email to contact@bluelakesent.com"
+                  aria-label="Send email to contact@bluelakesent.co.uk"
                 >
-                  📧 contact@bluelakesent.com
+                  📧 contact@bluelakesent.co.uk
                 </a>
               </p>
               <p>

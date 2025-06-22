@@ -58,7 +58,7 @@ const Contact = () => {
     {
       icon: "📧",
       title: "Email",
-      details: ["contact@bluelakesent.com", "info@bluelakesent.com"],
+      details: ["contact@bluelakesent.co.uk", "info@bluelakesent.co.uk"],
       bgColor: "bg-green-50",
       borderColor: "border-green-100",
       iconBg: "bg-green-100",
@@ -284,7 +284,7 @@ const Contact = () => {
             <h4 className="font-bold mb-4">Quick Actions</h4>
             <div className="space-y-3">
               <a 
-                href="mailto:contact@bluelakesent.com" 
+                href="mailto:contact@bluelakesent.co.uk" 
                 className="flex items-center text-blue-100 hover:text-white transition-colors"
               >
                 <span className="mr-2">📧</span>
