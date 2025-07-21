@@ -114,22 +114,7 @@ const VisionMission = () => {
         </div>
       </div>
 
-      {/* Impact Statistics */}
-      <div className="bg-blue-50 rounded-lg p-8 mb-8">
-        <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
-          Our Impact
-        </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
-          <div>
-            <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-            <p className="text-gray-700 font-medium">Properties Transformed</p>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-purple-600 mb-2">100%</div>
-            <p className="text-gray-700 font-medium">Client Satisfaction</p>
-          </div>
-        </div>
-      </div>
+     
 
       {/* Vision Image */}
       <div className="text-center">
